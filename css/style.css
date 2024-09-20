@@ -45,3 +45,27 @@ a {
     margin-left: auto;
     padding-left: 100px;
 }
+
+/* SECTION 1 */
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.flex1 {
+    background-color: blue;
+}
+
+.container {
+    height: 200px;
+    width: 400px;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+/* SECTION 2 */
+
+
