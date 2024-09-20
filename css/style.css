@@ -1,0 +1,47 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.main-header {
+    background-color: bisque;
+    padding: 12px 20px;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 2px dashed black;
+    min-height: 20px;
+}
+
+.main-menu {
+    display: flex;
+    gap: 50px;    
+}
+.logo {
+    border-right: 2px dashed black;
+    margin-right: auto;
+    padding-right: 100px;
+}
+
+.cta {
+    border-left: 2px dashed black;
+    margin-left: auto;
+    padding-left: 100px;
+}
