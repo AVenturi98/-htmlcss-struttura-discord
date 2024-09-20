@@ -73,3 +73,14 @@ a {
     background-color:dodgerblue;
     flex-basis: calc(50% * 3);
 }
+
+/* SECTION 3 */
+
+.hero-section {
+    background-color: lightgray;
+}
+
+.h-md{
+    flex-direction: row-reverse;
+}
+
