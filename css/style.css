@@ -49,23 +49,27 @@ a {
 /* SECTION 1 */
 
 .main-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 40px;
-}
-
-.flex1 {
     background-color: blue;
 }
 
-.container {
-    height: 200px;
-    width: 400px;
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px;
+
+}
+
+.flex-item {
     background-color: pink;
+    width: 400px;
+    height: 200px;
     border: 2px dashed black;
 }
 
 /* SECTION 2 */
 
-
+.w-md{
+    background-color:dodgerblue;
+    flex-basis: calc(50% * 3);
+}
