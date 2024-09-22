@@ -17,10 +17,13 @@ a {
 
 /* HEADER */
 
-.main-header {
-    background-color: bisque;
+.main {
     padding: 20px 40px;
     font-size: 20px;
+}
+
+.header {
+    background-color: bisque;
 }
 
 .navbar {
@@ -124,6 +127,22 @@ hr{
 
 /* FOOTER */
 
+.footer {
+    background-color: rgb(39, 38, 38);
+}
+
+.foot-bar {
+    border: none;
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+.l-ft {
+    border: 2px dashed black;
+    background-color: coral;
+    padding: 5px;
+}
+    
 
 /* DEBUG RULES */
 
