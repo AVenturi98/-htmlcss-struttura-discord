@@ -19,15 +19,16 @@ a {
 
 .main-header {
     background-color: bisque;
-    padding: 12px 20px;
+    padding: 20px 40px;
     font-size: 20px;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border: 2px dashed black;
-    min-height: 20px;
+    padding: 5px;
 }
 
 .main-menu {
@@ -45,42 +46,60 @@ a {
     margin-left: auto;
     padding-left: 100px;
 }
+.navbar, .container {
+    margin: auto 100px;
+}
 
-/* SECTION 1 */
+/* LAYOUT 1 */
 
-.main-section {
+.layout-1 {
     background-color: blue;
 }
 
-.flex-container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 80px;
-
+    padding: 12px 20px;
 }
 
-.flex-item {
-    background-color: pink;
+.row {
+    display: flex;    
+}
+
+.col {
     width: 400px;
     height: 200px;
-    border: 2px dashed black;
+}
+
+#task {
+    background-color: rgb(231, 100, 122);
 }
 
 /* SECTION 2 */
 
-.w-md{
-    background-color:dodgerblue;
-    flex-basis: calc(50% * 3);
+.w-75 {
+    background-color: dodgerblue;
+    width: 75%;
+    padding: 80px 100px;
+}
+
+.w-25 {
+    background-color: pink;
 }
 
 /* SECTION 3 */
 
-.hero-section {
+.layout-3, .layout-5{
     background-color: lightgray;
 }
 
-.h-md{
-    flex-direction: row-reverse;
-}
+/* SECTION 5 */
 
+/* FOOTER */
+
+/* DEBUG RULES */
+
+.debug .row > * {
+    border: 2px dashed black;
+}    
