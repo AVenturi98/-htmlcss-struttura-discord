@@ -98,11 +98,32 @@ a {
 
 .h-lg {
     width: 600px;
-    height: 400px;
+    height: 500px;
     background-color: green;
 }
 
+/* SECTION 6 */
+
+.layout-6{
+    background-color: rgb(39, 38, 38);
+}
+
+.h-td {
+    background-color: brown;
+    width: 600px;
+}
+
+.m-td {
+    background-color: aquamarine;
+    width: calc(100% / 2); 
+}
+
+hr{
+    color: aliceblue;
+}
+
 /* FOOTER */
+
 
 /* DEBUG RULES */
 
